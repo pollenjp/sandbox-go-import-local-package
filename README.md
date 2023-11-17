@@ -2,7 +2,7 @@
 
 I don't have [go-proj1](https://github.com/pollenjp/go-proj1) and [go-proj2](https://github.com/pollenjp/go-proj2) repositories.
 
-Because [/go-proj2/go.mod](/go-proj2/go.mod) has `replace` directive, you can build `go-proj2` without making `go-proj1` public.
+You can build `go-proj2` without making `go-proj1` public, because [/go-proj2/go.mod](/go-proj2/go.mod) has `replace` directive.
 
 ```go.mod
 module github.com/pollenjp/go-proj2
